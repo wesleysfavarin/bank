@@ -12,6 +12,14 @@
 		0439F7402210645000C78BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439F73E2210645000C78BD8 /* Main.storyboard */; };
 		0439F7422210645300C78BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7412210645300C78BD8 /* Assets.xcassets */; };
 		0439F7452210645300C78BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7432210645300C78BD8 /* LaunchScreen.storyboard */; };
+		0439F74D2210973E00C78BD8 /* SaldoExtradoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F74C2210973D00C78BD8 /* SaldoExtradoTableViewController.swift */; };
+		0439F74F2210992E00C78BD8 /* ExtratoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F74E2210992E00C78BD8 /* ExtratoTableViewCell.swift */; };
+		0439F75122109CFD00C78BD8 /* Extrato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F75022109CFD00C78BD8 /* Extrato.swift */; };
+		0439F75422109D2E00C78BD8 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F75322109D2E00C78BD8 /* LoginService.swift */; };
+		0439F75622109D4300C78BD8 /* ExtratoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F75522109D4300C78BD8 /* ExtratoService.swift */; };
+		0439F75822109DFA00C78BD8 /* StatementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F75722109DFA00C78BD8 /* StatementList.swift */; };
+		0439F75A22184A2A00C78BD8 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F75922184A2A00C78BD8 /* LoginModel.swift */; };
+		3BADEF070ED0C898DCAD582C /* Pods_BankApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6DCEAA440EC8B67C63088A /* Pods_BankApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		0439F7412210645300C78BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0439F7442210645300C78BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0439F7462210645300C78BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0439F74C2210973D00C78BD8 /* SaldoExtradoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaldoExtradoTableViewController.swift; sourceTree = "<group>"; };
+		0439F74E2210992E00C78BD8 /* ExtratoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtratoTableViewCell.swift; sourceTree = "<group>"; };
+		0439F75022109CFD00C78BD8 /* Extrato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extrato.swift; sourceTree = "<group>"; };
+		0439F75322109D2E00C78BD8 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		0439F75522109D4300C78BD8 /* ExtratoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtratoService.swift; sourceTree = "<group>"; };
+		0439F75722109DFA00C78BD8 /* StatementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementList.swift; sourceTree = "<group>"; };
+		0439F75922184A2A00C78BD8 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1B2BCC36DFE424AE2C92E297 /* Pods-BankApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankApp/Pods-BankApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AB6DCEAA440EC8B67C63088A /* Pods_BankApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E1CD6C06B42D99F9F97300 /* Pods-BankApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankApp/Pods-BankApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BADEF070ED0C898DCAD582C /* Pods_BankApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				0439F7392210645000C78BD8 /* BankApp */,
 				0439F7382210645000C78BD8 /* Products */,
+				5926DF531C476FEFB4BEF13C /* Pods */,
+				E02FF972592DA8F03E5860B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,70 @@
 		0439F7392210645000C78BD8 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				0439F75222109D1500C78BD8 /* Service */,
 				0439F73A2210645000C78BD8 /* AppDelegate.swift */,
-				0439F73C2210645000C78BD8 /* ViewController.swift */,
-				0439F73E2210645000C78BD8 /* Main.storyboard */,
+				0439F75D2218686F00C78BD8 /* Controller */,
+				0439F75B2218683800C78BD8 /* View */,
 				0439F7412210645300C78BD8 /* Assets.xcassets */,
-				0439F7432210645300C78BD8 /* LaunchScreen.storyboard */,
 				0439F7462210645300C78BD8 /* Info.plist */,
+				0439F75C2218686200C78BD8 /* Model */,
 			);
 			path = BankApp;
+			sourceTree = "<group>";
+		};
+		0439F75222109D1500C78BD8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0439F75322109D2E00C78BD8 /* LoginService.swift */,
+				0439F75522109D4300C78BD8 /* ExtratoService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		0439F75B2218683800C78BD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0439F73E2210645000C78BD8 /* Main.storyboard */,
+				0439F7432210645300C78BD8 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0439F75C2218686200C78BD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0439F75722109DFA00C78BD8 /* StatementList.swift */,
+				0439F75022109CFD00C78BD8 /* Extrato.swift */,
+				0439F75922184A2A00C78BD8 /* LoginModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0439F75D2218686F00C78BD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0439F73C2210645000C78BD8 /* ViewController.swift */,
+				0439F74C2210973D00C78BD8 /* SaldoExtradoTableViewController.swift */,
+				0439F74E2210992E00C78BD8 /* ExtratoTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5926DF531C476FEFB4BEF13C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B2BCC36DFE424AE2C92E297 /* Pods-BankApp.debug.xcconfig */,
+				E3E1CD6C06B42D99F9F97300 /* Pods-BankApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E02FF972592DA8F03E5860B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6DCEAA440EC8B67C63088A /* Pods_BankApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0439F7492210645300C78BD8 /* Build configuration list for PBXNativeTarget "BankApp" */;
 			buildPhases = (
+				A7C47C316692514EBC8534CE /* [CP] Check Pods Manifest.lock */,
 				0439F7332210645000C78BD8 /* Sources */,
 				0439F7342210645000C78BD8 /* Frameworks */,
 				0439F7352210645000C78BD8 /* Resources */,
+				B1F4A22661D78DD104C18AFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +209,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7C47C316692514EBC8534CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F4A22661D78DD104C18AFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BankApp/Pods-BankApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BankApp/Pods-BankApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0439F7332210645000C78BD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0439F73D2210645000C78BD8 /* ViewController.swift in Sources */,
+				0439F75422109D2E00C78BD8 /* LoginService.swift in Sources */,
 				0439F73B2210645000C78BD8 /* AppDelegate.swift in Sources */,
+				0439F74D2210973E00C78BD8 /* SaldoExtradoTableViewController.swift in Sources */,
+				0439F75A22184A2A00C78BD8 /* LoginModel.swift in Sources */,
+				0439F75122109CFD00C78BD8 /* Extrato.swift in Sources */,
+				0439F75622109D4300C78BD8 /* ExtratoService.swift in Sources */,
+				0439F74F2210992E00C78BD8 /* ExtratoTableViewCell.swift in Sources */,
+				0439F75822109DFA00C78BD8 /* StatementList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +417,7 @@
 		};
 		0439F74A2210645300C78BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2BCC36DFE424AE2C92E297 /* Pods-BankApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +436,7 @@
 		};
 		0439F74B2210645300C78BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E1CD6C06B42D99F9F97300 /* Pods-BankApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
